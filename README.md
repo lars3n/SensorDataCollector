@@ -1,5 +1,5 @@
 # SensorDataCollector
-基于arduino, esp8266，及各种传感器 制作的家居监控及告警DEMO
+基于arduino, esp8266，及各种传感器 制作的家居监控及告警DEMO, 仅供参考
 
 ## 功能
 采集烟雾/火焰/光感 等传感器的数据，并通过esp8266 发送到服务器
