@@ -76,7 +76,7 @@ void loop()
 {
   int light_val = get_light();
   int checks[3][3] = {
-    {get_smoke(), 30, 0},
+    {get_smoke(), 30, 0},   // 数组第一项:采集的数据 第二项:告警的阈值  第三项:是否告警
     {get_fire(), 200, 0},
     {light_val, 10000, 0},
     };
